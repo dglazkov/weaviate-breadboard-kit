@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "composite": true,
     "esModuleInterop": true,
     "module": "ES2022",
     "moduleResolution": "Bundler",
@@ -8,9 +7,6 @@
     "sourceMap": true,
     "skipLibCheck": true,
     "target": "ES2022"
-},
-  "include": [
-    "src/**/*",
-    "tests/**/*"
-  ],
+  },
+  "include": ["src/**/*", "tests/**/*"]
 }
